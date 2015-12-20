@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_sort"
+        android:title="@string/spinner_title"
+        android:dialogTitle="@string/spinner_title"
+        android:entries="@array/pref_array_entries"
+        android:entryValues="@array/pref_array_values"
+        android:defaultValue="@string/spinner_default" />
+</PreferenceScreen>
